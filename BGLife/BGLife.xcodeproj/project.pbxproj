@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B298891C7F21FF00D34867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298881C7F21FF00D34867 /* main.m */; };
+		67B2988C1C7F21FF00D34867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B2988B1C7F21FF00D34867 /* AppDelegate.m */; };
+		67B2988E1C7F21FF00D34867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B2988D1C7F21FF00D34867 /* Assets.xcassets */; };
+		67B298911C7F21FF00D34867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B2988F1C7F21FF00D34867 /* LaunchScreen.storyboard */; };
+		67B2989C1C7F21FF00D34867 /* BGLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B2989B1C7F21FF00D34867 /* BGLifeTests.m */; };
+		67B298A71C7F21FF00D34867 /* BGLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298A61C7F21FF00D34867 /* BGLifeUITests.m */; };
+		67B298B61C7F281F00D34867 /* UIView+GetViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298B51C7F281F00D34867 /* UIView+GetViewFrame.m */; };
+		67B298C61C7F2AB300D34867 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298C51C7F2AB300D34867 /* MainTabBarViewController.m */; };
+		67B298C91C7F2B3400D34867 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298C81C7F2B3300D34867 /* BaseViewController.m */; };
+		67B298CC1C7F2CC300D34867 /* BoyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298CB1C7F2CC300D34867 /* BoyViewController.m */; };
+		67B298CF1C7F2CE400D34867 /* GirlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298CE1C7F2CE400D34867 /* GirlViewController.m */; };
+		67B298D21C7F2CFF00D34867 /* LifeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B298D11C7F2CFF00D34867 /* LifeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B298981C7F21FF00D34867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B2987C1C7F21FF00D34867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B298831C7F21FF00D34867;
+			remoteInfo = BGLife;
+		};
+		67B298A31C7F21FF00D34867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B2987C1C7F21FF00D34867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B298831C7F21FF00D34867;
+			remoteInfo = BGLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67B298841C7F21FF00D34867 /* BGLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B298881C7F21FF00D34867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67B2988A1C7F21FF00D34867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67B2988B1C7F21FF00D34867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67B2988D1C7F21FF00D34867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B298901C7F21FF00D34867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67B298921C7F21FF00D34867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B298971C7F21FF00D34867 /* BGLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B2989B1C7F21FF00D34867 /* BGLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGLifeTests.m; sourceTree = "<group>"; };
+		67B2989D1C7F21FF00D34867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B298A21C7F21FF00D34867 /* BGLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B298A61C7F21FF00D34867 /* BGLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGLifeUITests.m; sourceTree = "<group>"; };
+		67B298A81C7F21FF00D34867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B298B41C7F281F00D34867 /* UIView+GetViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GetViewFrame.h"; sourceTree = "<group>"; };
+		67B298B51C7F281F00D34867 /* UIView+GetViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GetViewFrame.m"; sourceTree = "<group>"; };
+		67B298C41C7F2AB300D34867 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		67B298C51C7F2AB300D34867 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		67B298C71C7F2B3300D34867 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		67B298C81C7F2B3300D34867 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		67B298CA1C7F2CC300D34867 /* BoyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoyViewController.h; sourceTree = "<group>"; };
+		67B298CB1C7F2CC300D34867 /* BoyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoyViewController.m; sourceTree = "<group>"; };
+		67B298CD1C7F2CE400D34867 /* GirlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GirlViewController.h; sourceTree = "<group>"; };
+		67B298CE1C7F2CE400D34867 /* GirlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GirlViewController.m; sourceTree = "<group>"; };
+		67B298D01C7F2CFF00D34867 /* LifeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LifeViewController.h; sourceTree = "<group>"; };
+		67B298D11C7F2CFF00D34867 /* LifeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LifeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B298811C7F21FF00D34867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B298941C7F21FF00D34867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B2989F1C7F21FF00D34867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B2987B1C7F21FF00D34867 = {
+			isa = PBXGroup;
+			children = (
+				67B298861C7F21FF00D34867 /* BGLife */,
+				67B2989A1C7F21FF00D34867 /* BGLifeTests */,
+				67B298A51C7F21FF00D34867 /* BGLifeUITests */,
+				67B298851C7F21FF00D34867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B298851C7F21FF00D34867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B298841C7F21FF00D34867 /* BGLife.app */,
+				67B298971C7F21FF00D34867 /* BGLifeTests.xctest */,
+				67B298A21C7F21FF00D34867 /* BGLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B298861C7F21FF00D34867 /* BGLife */ = {
+			isa = PBXGroup;
+			children = (
+				67B298C01C7F29A800D34867 /* Resource */,
+				67B298B71C7F287200D34867 /* Common */,
+				67B298B91C7F28D600D34867 /* main */,
+				67B2988A1C7F21FF00D34867 /* AppDelegate.h */,
+				67B2988B1C7F21FF00D34867 /* AppDelegate.m */,
+				67B2988D1C7F21FF00D34867 /* Assets.xcassets */,
+				67B2988F1C7F21FF00D34867 /* LaunchScreen.storyboard */,
+				67B298921C7F21FF00D34867 /* Info.plist */,
+				67B298871C7F21FF00D34867 /* Supporting Files */,
+			);
+			path = BGLife;
+			sourceTree = "<group>";
+		};
+		67B298871C7F21FF00D34867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67B298881C7F21FF00D34867 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67B2989A1C7F21FF00D34867 /* BGLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				67B2989B1C7F21FF00D34867 /* BGLifeTests.m */,
+				67B2989D1C7F21FF00D34867 /* Info.plist */,
+			);
+			path = BGLifeTests;
+			sourceTree = "<group>";
+		};
+		67B298A51C7F21FF00D34867 /* BGLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67B298A61C7F21FF00D34867 /* BGLifeUITests.m */,
+				67B298A81C7F21FF00D34867 /* Info.plist */,
+			);
+			path = BGLifeUITests;
+			sourceTree = "<group>";
+		};
+		67B298B71C7F287200D34867 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				67B298B41C7F281F00D34867 /* UIView+GetViewFrame.h */,
+				67B298B51C7F281F00D34867 /* UIView+GetViewFrame.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		67B298B91C7F28D600D34867 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				67B298BF1C7F295B00D34867 /* Me */,
+				67B298BE1C7F293F00D34867 /* Life */,
+				67B298BD1C7F293700D34867 /* Girl */,
+				67B298BC1C7F292500D34867 /* Boy */,
+				67B298BA1C7F290800D34867 /* Base */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		67B298BA1C7F290800D34867 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				67B298C71C7F2B3300D34867 /* BaseViewController.h */,
+				67B298C81C7F2B3300D34867 /* BaseViewController.m */,
+				67B298C41C7F2AB300D34867 /* MainTabBarViewController.h */,
+				67B298C51C7F2AB300D34867 /* MainTabBarViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		67B298BC1C7F292500D34867 /* Boy */ = {
+			isa = PBXGroup;
+			children = (
+				67B298CA1C7F2CC300D34867 /* BoyViewController.h */,
+				67B298CB1C7F2CC300D34867 /* BoyViewController.m */,
+			);
+			name = Boy;
+			sourceTree = "<group>";
+		};
+		67B298BD1C7F293700D34867 /* Girl */ = {
+			isa = PBXGroup;
+			children = (
+				67B298CD1C7F2CE400D34867 /* GirlViewController.h */,
+				67B298CE1C7F2CE400D34867 /* GirlViewController.m */,
+			);
+			name = Girl;
+			sourceTree = "<group>";
+		};
+		67B298BE1C7F293F00D34867 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				67B298D01C7F2CFF00D34867 /* LifeViewController.h */,
+				67B298D11C7F2CFF00D34867 /* LifeViewController.m */,
+			);
+			name = Life;
+			sourceTree = "<group>";
+		};
+		67B298BF1C7F295B00D34867 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		67B298C01C7F29A800D34867 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B298831C7F21FF00D34867 /* BGLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B298AB1C7F21FF00D34867 /* Build configuration list for PBXNativeTarget "BGLife" */;
+			buildPhases = (
+				67B298801C7F21FF00D34867 /* Sources */,
+				67B298811C7F21FF00D34867 /* Frameworks */,
+				67B298821C7F21FF00D34867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGLife;
+			productName = BGLife;
+			productReference = 67B298841C7F21FF00D34867 /* BGLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B298961C7F21FF00D34867 /* BGLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B298AE1C7F21FF00D34867 /* Build configuration list for PBXNativeTarget "BGLifeTests" */;
+			buildPhases = (
+				67B298931C7F21FF00D34867 /* Sources */,
+				67B298941C7F21FF00D34867 /* Frameworks */,
+				67B298951C7F21FF00D34867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B298991C7F21FF00D34867 /* PBXTargetDependency */,
+			);
+			name = BGLifeTests;
+			productName = BGLifeTests;
+			productReference = 67B298971C7F21FF00D34867 /* BGLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67B298A11C7F21FF00D34867 /* BGLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B298B11C7F21FF00D34867 /* Build configuration list for PBXNativeTarget "BGLifeUITests" */;
+			buildPhases = (
+				67B2989E1C7F21FF00D34867 /* Sources */,
+				67B2989F1C7F21FF00D34867 /* Frameworks */,
+				67B298A01C7F21FF00D34867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B298A41C7F21FF00D34867 /* PBXTargetDependency */,
+			);
+			name = BGLifeUITests;
+			productName = BGLifeUITests;
+			productReference = 67B298A21C7F21FF00D34867 /* BGLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B2987C1C7F21FF00D34867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张书鹏";
+				TargetAttributes = {
+					67B298831C7F21FF00D34867 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 54AW3WXDQK;
+					};
+					67B298961C7F21FF00D34867 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 54AW3WXDQK;
+						TestTargetID = 67B298831C7F21FF00D34867;
+					};
+					67B298A11C7F21FF00D34867 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 54AW3WXDQK;
+						TestTargetID = 67B298831C7F21FF00D34867;
+					};
+				};
+			};
+			buildConfigurationList = 67B2987F1C7F21FF00D34867 /* Build configuration list for PBXProject "BGLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B2987B1C7F21FF00D34867;
+			productRefGroup = 67B298851C7F21FF00D34867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B298831C7F21FF00D34867 /* BGLife */,
+				67B298961C7F21FF00D34867 /* BGLifeTests */,
+				67B298A11C7F21FF00D34867 /* BGLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B298821C7F21FF00D34867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B2988E1C7F21FF00D34867 /* Assets.xcassets in Resources */,
+				67B298911C7F21FF00D34867 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B298951C7F21FF00D34867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B298A01C7F21FF00D34867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B298801C7F21FF00D34867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B2988C1C7F21FF00D34867 /* AppDelegate.m in Sources */,
+				67B298C91C7F2B3400D34867 /* BaseViewController.m in Sources */,
+				67B298C61C7F2AB300D34867 /* MainTabBarViewController.m in Sources */,
+				67B298CC1C7F2CC300D34867 /* BoyViewController.m in Sources */,
+				67B298CF1C7F2CE400D34867 /* GirlViewController.m in Sources */,
+				67B298B61C7F281F00D34867 /* UIView+GetViewFrame.m in Sources */,
+				67B298D21C7F2CFF00D34867 /* LifeViewController.m in Sources */,
+				67B298891C7F21FF00D34867 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B298931C7F21FF00D34867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B2989C1C7F21FF00D34867 /* BGLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B2989E1C7F21FF00D34867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B298A71C7F21FF00D34867 /* BGLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B298991C7F21FF00D34867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B298831C7F21FF00D34867 /* BGLife */;
+			targetProxy = 67B298981C7F21FF00D34867 /* PBXContainerItemProxy */;
+		};
+		67B298A41C7F21FF00D34867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B298831C7F21FF00D34867 /* BGLife */;
+			targetProxy = 67B298A31C7F21FF00D34867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67B2988F1C7F21FF00D34867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67B298901C7F21FF00D34867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67B298A91C7F21FF00D34867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67B298AA1C7F21FF00D34867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B298AC1C7F21FF00D34867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BGLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1519.BGLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67B298AD1C7F21FF00D34867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BGLife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1519.BGLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67B298AF1C7F21FF00D34867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BGLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1519.BGLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGLife.app/BGLife";
+			};
+			name = Debug;
+		};
+		67B298B01C7F21FF00D34867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BGLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1519.BGLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGLife.app/BGLife";
+			};
+			name = Release;
+		};
+		67B298B21C7F21FF00D34867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BGLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1519.BGLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BGLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		67B298B31C7F21FF00D34867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BGLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.1519.BGLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BGLife;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B2987F1C7F21FF00D34867 /* Build configuration list for PBXProject "BGLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B298A91C7F21FF00D34867 /* Debug */,
+				67B298AA1C7F21FF00D34867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B298AB1C7F21FF00D34867 /* Build configuration list for PBXNativeTarget "BGLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B298AC1C7F21FF00D34867 /* Debug */,
+				67B298AD1C7F21FF00D34867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67B298AE1C7F21FF00D34867 /* Build configuration list for PBXNativeTarget "BGLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B298AF1C7F21FF00D34867 /* Debug */,
+				67B298B01C7F21FF00D34867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67B298B11C7F21FF00D34867 /* Build configuration list for PBXNativeTarget "BGLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B298B21C7F21FF00D34867 /* Debug */,
+				67B298B31C7F21FF00D34867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B2987C1C7F21FF00D34867 /* Project object */;
+}
