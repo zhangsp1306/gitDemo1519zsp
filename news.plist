@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>习近平从严治党语录：家庭重大变故要报告</string>
+		<key>detail</key>
+		<string>由中共中央纪律检查委员会、中共中央文献研究室编辑的《习近平关于严明党的纪律和规矩论述摘编》一书，近日由中央文献出版社、中国方正出版社出版，在全国发行。书中收入200段论述，摘自习近平同志2012年11月16日至2015年10月29日期间的讲话、文章等40多篇重要文献。其中许多论述是第一次公开发表</string>
+		<key>icon</key>
+		<string>0.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>“微信之父”张小龙: 将开发微信“应用号”取代</string>
+		<key>detail</key>
+		<string>1月11日微信公开课PRO版活动上，腾讯公司高级执行副总裁、微信事业群总裁张小龙首次公开演讲。并透露微信将开发一个新的形态，叫做应用号。外界认为，微信已经有了一种OS（操作系统）的感觉。“应用号”以一款轻量级应用的姿态可能成为连接一切的底层</string>
+		<key>icon</key>
+		<string>1.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>国务院发布医保制度意见 适当提高个人缴费比重</string>
+		<key>detail</key>
+		<string>基本医疗保险制度的意见
+国发〔2016〕3号
+各省、自治区、直辖市人民政府，国务院各部委、各直属机构：
+整合城镇居民基本医疗保险（以下简称城镇居民医保）和新型农村合作医疗（以 下简称新农合</string>
+		<key>icon</key>
+		<string>2.png</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>特斯拉CEO马斯克：等我们有能力时 要送人类上</string>
+		<key>detail</key>
+		<string>由他掌舵的三家公司中，其中一家正试图颠覆汽车产业，另外一家正尝试将人类送上火星，还有一家则在设法让每个有需要的人都能用上电。埃隆·马斯克想在自己有生之年重塑这个世界。</string>
+		<key>icon</key>
+		<string>3.png</string>
+	</dict>
+</array>
+</plist>
